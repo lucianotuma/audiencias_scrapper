@@ -1,0 +1,69 @@
+﻿==================================================
+  INSTALADOR - SISTEMA DE AUDIENCIAS v2.0
+==================================================
+
+IMPORTANTE: Este instalador contem TUDO pre-configurado!
+- Executavel
+- Credenciais do TRT
+- Credenciais do Google
+- Configuracoes de email
+- Documentacao
+
+==================================================
+  COMO INSTALAR:
+==================================================
+
+OPCAO 1 - INSTALACAO AUTOMATICA (RECOMENDADO):
+
+1. De duplo clique no arquivo "INSTALAR.bat"
+2. Clique em "Sim" se aparecer aviso de seguranca
+3. Pressione qualquer tecla para confirmar
+4. Aguarde a instalacao
+5. Pronto! Use o atalho na Area de Trabalho
+
+OPCAO 2 - INSTALACAO MANUAL:
+
+1. Copie toda esta pasta para:
+   C:\Program Files\Sistema de Audiencias\
+
+2. Crie um atalho do arquivo "Executar.bat"
+   na sua Area de Trabalho
+
+3. Pronto!
+
+==================================================
+  REQUISITOS:
+==================================================
+
+- Windows 10 ou 11 (64-bit)
+- Google Chrome instalado
+- Conexao com internet
+
+==================================================
+  COMO USAR:
+==================================================
+
+1. De duplo clique no atalho "Sistema de Audiencias"
+2. O Chrome ira abrir
+3. Faca login manualmente nos sites do TRT
+4. Complete o segundo fator de autenticacao (2FA)
+5. O sistema coleta tudo automaticamente
+
+Os tokens ficam salvos por 24 horas.
+
+==================================================
+  SUPORTE:
+==================================================
+
+escritorio.macedoadvocacia@gmail.com
+
+==================================================
+  SEGURANCA:
+==================================================
+
+ATENCAO: Este instalador contem credenciais sensiveis!
+- Nao compartilhe com pessoas nao autorizadas
+- Mantenha em local seguro
+- Delete apos a instalacao
+
+==================================================

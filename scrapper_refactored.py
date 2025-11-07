@@ -135,8 +135,14 @@ class HearingLogger:
             datefmt='%Y-%m-%d %H:%M:%S'
         )
         
-        # 1. Handler para console
+        # 1. Handler para console (com encoding UTF-8 para emojis)
         console_handler = logging.StreamHandler(sys.stdout)
+        # Força UTF-8 no console para suportar emojis
+        if hasattr(sys.stdout, 'reconfigure'):
+            try:
+                sys.stdout.reconfigure(encoding='utf-8')
+            except:
+                pass
         console_handler.setFormatter(formatter)
         self.logger.addHandler(console_handler)
         

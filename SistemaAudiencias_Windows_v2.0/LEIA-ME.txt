@@ -1,0 +1,146 @@
+# 📦 Sistema de Audiências - Pacote de Distribuição Windows v2.0
+
+## 📁 Conteúdo do Pacote
+
+Este pacote contém:
+
+- ✅ **SistemaAudiencias.exe** (60 MB) - Executável principal
+- ✅ **Executar.bat** - Facilitador de execução (clique duplo)
+- ✅ **.env.example** - Template de configuração
+- ✅ **INSTALACAO_EXECUTAVEL.md** - Guia completo de instalação
+- ✅ **QUICKSTART.md** - Início rápido
+- ✅ **README.md** - Documentação técnica completa
+
+## 🚀 Instalação Rápida (3 passos)
+
+### 1. Configure as Credenciais
+
+1. Copie `.env.example` e renomeie para `.env`
+2. Abra `.env` com Bloco de Notas
+3. Preencha suas credenciais:
+   ```env
+   TRT_USERNAME=seu_cpf
+   TRT_PASSWORD=sua_senha
+   EMAIL_SENDER=seu_email@gmail.com
+   EMAIL_PASSWORD=senha_de_aplicativo
+   EMAIL_RECIPIENTS=emails@destinatarios.com
+   ```
+
+### 2. Adicione Credenciais Google
+
+Coloque o arquivo `.json` de credenciais Google nesta pasta.
+
+O arquivo deve se chamar:
+```
+planilha-de-audiencias-25b5ec50e72f.json
+```
+
+### 3. Execute
+
+**Opção 1** - Duplo clique em: `Executar.bat`
+
+**Opção 2** - Duplo clique em: `SistemaAudiencias.exe`
+
+## 📋 Pré-requisitos
+
+- ✅ Windows 10/11
+- ✅ Google Chrome instalado
+- ✅ Conexão com internet
+
+**NÃO É NECESSÁRIO instalar Python!** Tudo está incluído no executável.
+
+## 🔐 Primeira Execução
+
+1. O Chrome abrirá automaticamente
+2. Faça login no TRT2 (manualmente)
+3. Complete o 2FA
+4. Repita para TRT15
+5. Pronto! O sistema coleta as audiências
+
+⏱️ Tempo: ~5 minutos na primeira vez
+
+## 🔄 Execuções Seguintes
+
+Nas próximas 24 horas:
+- ✅ Execução totalmente automática
+- ✅ Sem necessidade de login
+- ✅ Tokens reutilizados
+
+## 📊 Tamanho do Executável
+
+**60 MB** - Inclui:
+- Python 3.12
+- Todas as bibliotecas necessárias
+- ChromeDriver
+- Dependências Google APIs
+- Sistema completo pronto para uso
+
+## 📁 Estrutura de Pastas (após primeira execução)
+
+```
+SistemaAudiencias_Windows_v2.0/
+│
+├── SistemaAudiencias.exe          # Executável principal
+├── Executar.bat                    # Facilitador
+├── .env                            # Suas credenciais (você cria)
+├── planilha-*.json                 # Credenciais Google (você adiciona)
+│
+├── logs/                           # Logs do sistema (criado automaticamente)
+│   └── audiencias.log
+│
+└── session_tokens.json             # Cache de tokens (criado automaticamente)
+```
+
+## 🆘 Problemas?
+
+### ❌ "Windows Defender bloqueou"
+**Solução**: Clique em "Mais informações" → "Executar assim mesmo"
+
+### ❌ "Chrome não abre"
+**Solução**: Instale o Google Chrome
+
+### ❌ "Erro ao acessar planilha"
+**Solução**: Verifique se o arquivo `.json` está na pasta
+
+### ❌ Ver logs
+**Solução**: Abra `logs\audiencias.log` com Bloco de Notas
+
+## 📧 Senha de Aplicativo Gmail
+
+Use uma senha específica do Gmail:
+1. Acesse: https://myaccount.google.com/security
+2. Ative verificação em 2 etapas
+3. Crie senha de app
+4. Use essa senha no `.env`
+
+## 🔒 Segurança
+
+- ⚠️ Mantenha o arquivo `.env` seguro
+- ⚠️ Não compartilhe suas credenciais
+- ⚠️ Não compartilhe o arquivo `.json`
+
+## 📚 Documentação
+
+- **Instalação completa**: Leia `INSTALACAO_EXECUTAVEL.md`
+- **Guia rápido**: Leia `QUICKSTART.md`
+- **Documentação técnica**: Leia `README.md`
+
+## ✅ Checklist Antes de Executar
+
+- [ ] Arquivo `.env` criado e preenchido
+- [ ] Arquivo `.json` de credenciais na pasta
+- [ ] Google Chrome instalado
+- [ ] Credenciais dos tribunais corretas
+- [ ] Senha de aplicativo Gmail configurada
+
+## 🎯 Pronto!
+
+**Duplo clique em `Executar.bat` para começar!**
+
+---
+
+**Sistema desenvolvido com ❤️ para o Escritório Macedo Advocacia**
+
+**Versão**: 2.0  
+**Data**: Novembro 2025  
+**Plataforma**: Windows 10/11 (64-bit)
